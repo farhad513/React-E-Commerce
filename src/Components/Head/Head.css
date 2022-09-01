@@ -1,0 +1,22 @@
+.head {
+    background-color: #00008B;
+    padding: 10px 0;
+    color: #fff;
+}
+.head i{
+    margin-right: 10px;
+}
+.head label{
+    margin-right: 10px;
+    font-size: 15px;
+
+}
+
+@media (max-width: 768px) {
+    .right{
+        display: flex;
+        text-align: center;
+       align-items: center;
+       justify-content: center;
+    }
+}

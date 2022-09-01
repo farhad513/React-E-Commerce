@@ -1,0 +1,159 @@
+.header {
+    height: 9vh;
+    box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1)
+}
+
+.header ul {
+    line-height: 8vh;
+}
+
+.header ul li {
+    margin-right: 30px;
+}
+
+.header ul li a {
+    transition: 0.5s;
+    font-style: 15px;
+    font-weight: 400;
+}
+
+.header ul li a:hover {
+    color: #FF6347;
+}
+
+.open {
+    display: none;
+}
+
+.categories {
+    background-color: #f6f9fc;
+    padding: 0 30px;
+    border-radius: 5px;
+    height: 7vh;
+    margin-top: 5px;
+}
+
+.categories>span {
+    margin-right: 20px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.categories h4 {
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        height: 12vh;
+    }
+
+    header ul {
+        padding-top: 30px;
+    }
+
+    header ul li {
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        text-transform: uppercase;
+        line-height: 70px;
+        padding: 0px 20px;
+        margin: 0 0px 0 0 !important;
+    }
+
+    header .link {
+        display: none;
+    }
+
+    .categories {
+        height: 10vh;
+    }
+
+    .close,
+    .open {
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        color: #ff014f;
+        display: block;
+        font-size: 25px;
+        z-index: 9999;
+        /* padding-left: 20px; */
+    }
+
+    .close {
+        right: 45%;
+    }
+
+    .open {
+        top: 35%;
+    }
+
+    .close .home-bth {
+        background: linear-gradient(145deg, #e2e8ec, #fff);
+        color: #ff014f;
+        border-radius: 50%;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+
+    }
+
+    .nav-links-mobile {
+        position: absolute;
+        display: block;
+        list-style-type: none;
+        left: 0;
+        top: 0;
+        transition: 0.5;
+        width: 60%;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 888;
+        box-shadow: rgba(50, 50, 90, 0.23)0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+    }
+}
+
+
+@media (max-width:932px) {
+    .header {
+            height: 12vh;
+        }
+    .categories {
+            height: 8vh;
+        }
+                  .categories>span {
+                      font-size: 1.5rem;
+                      margin-top: 2px;
+                  }
+        
+                  .categories h4 {
+                      margin-top: 2px;
+                      font-size: 1.2rem;
+                  }
+}
+
+
+
+@media (max-width:1024px) {
+.search-box>span {
+        padding: 3px 10px;
+        font-size: 1rem;
+    }
+        .header {
+            height: 12vh;
+        }.categories {
+            height: 8vh;
+        }
+        .categories >span{
+            font-size: 1.5rem;
+            margin-top: 2px;
+        }
+        .categories h4{
+            margin-top: 2px;
+            font-size: 1.2rem;
+        }
+}

@@ -1,0 +1,31 @@
+.contentWidth{
+    width: 77%;
+}
+.category{
+    width: 23%;
+    box-shadow: rgb(43 52 69/10%)0 4px 16px;
+    height: 460px;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.category  img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    object-fit: contain;
+}
+
+.category span{
+    margin: 18px 5px;
+    text-transform: capitalize;
+}
+.category .box{
+    transition: 0.5s ;
+    padding:0 20px;
+}
+
+.category .box:hover {
+    background-color: rgb(240, 240, 207);
+    cursor: pointer;
+}
