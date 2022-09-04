@@ -66,18 +66,25 @@ button {
   width: 50%;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #e75195;
-  padding:13px 40px;
+  padding: 13px 40px;
   font-weight: bold;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
 }
-.top{
+
+.top {
   margin-top: 80px;
 }
 
-.home{
+.home {
   margin-top: 30px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
 }

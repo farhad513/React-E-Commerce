@@ -1,0 +1,71 @@
+.heading-left i {
+    font-size: 30px;
+}
+
+.heading-left h2 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.heading-right {
+    text-align: right;
+}
+
+.heading-right i,
+.heading-right span {
+    text-align: right;
+    color: gray;
+}
+
+
+.topCategory {
+    position: relative;
+    /* padding: 10px; */
+}
+
+.topCategory img {
+    width: 100%;
+    height: 100%;
+}
+
+.topCategory .nameTop {
+    position: relative;
+    width: 100%;
+}
+
+.topCategory .nameTop span {
+    background-color: #0f3460;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    margin: 5px;
+}
+
+.tLeft {
+    left: 0;
+}
+
+.tRight {
+    background-color: aliceblue;
+    color: #000;
+    position: absolute;
+    right: 0;
+}
+
+.img img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.topCategory .box {
+    margin: 0 0px;
+    /* display: flex; 
+        text-align: center;
+        justify-content: center;
+        align-items: center; */
+}

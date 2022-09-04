@@ -1,9 +1,24 @@
 import React from 'react';
-
+import './style.css'
+import TopCart from './TopCart';
 const TopCategory = () => {
     return (
         <>
-            <h1>Top Category</h1>
+            <section className="topCategory background">
+                <div className="container">
+                    <div className="heading d_flex">
+                        <div className="heading-left row f_flex">
+                            <i className="fa fa-border-all"></i>
+                            <h2>Top Categories</h2>
+                        </div>
+                        <div className="heading-right row">
+                            <span>view all</span>
+                            <i className="fa fa-caret-right"></i>
+                        </div>
+                    </div>
+                    <TopCart/>
+                </div>
+            </section>
         </>
     );
 };
